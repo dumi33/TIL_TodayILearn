@@ -68,7 +68,7 @@
             throw new BaseException(DATABASE_ERROR);
         }
     }
-    public Strin
+
  ```
  <br><br>
  
