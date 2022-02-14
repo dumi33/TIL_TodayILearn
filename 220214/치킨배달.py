@@ -1,3 +1,5 @@
+## 자꾸 틀린 코드라고 나옴
+
 from itertools import combinations
 
 n,m = map(int,input().split())
@@ -21,3 +23,5 @@ for ch_addr in combinations(chicken, m) :
         city_chi += chick_dis
     ans = min(ans, city_chi)
 print(ans)
+
+
