@@ -25,5 +25,4 @@ for ch_addr in combinations(chicken, m) :
 print(ans)
 
 
-# import sys
-# input = sys.stdin.readline 을 추가 하면 성공함 
+# import sys 를 안해서 그래....
