@@ -1,4 +1,4 @@
-def dfs(L, sum) :
+def dfs(L) :
     global ans
     if L == m :
         ans+=1
@@ -10,7 +10,7 @@ def dfs(L, sum) :
             if ch[i] == 0 :
                 ch[i] = 1 
                 arr[L] = i
-                dfs(L+1, sum+i)
+                dfs(L+1)
                 ch[i] = 0
                 
                 
@@ -19,5 +19,5 @@ if __name__=="__main__" :
     arr = [0] * m
     ch = [0] * (n+1)
     ans = 0
-    dfs(0,0)
+    dfs(0)
     print(ans)
