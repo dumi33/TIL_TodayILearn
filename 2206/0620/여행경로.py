@@ -21,7 +21,6 @@ def solution(tickets):
             
             if ret : 
                 return ret
-            print(country)
             routes[key].insert(idx,country)
             
             
