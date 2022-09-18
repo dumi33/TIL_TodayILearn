@@ -36,7 +36,7 @@ if __name__=="__main__" :
         for j in  range(1,n) :
             if mp[i][j] == 0 and mp[i][j-1] == 0 and mp[i][j+1] == 0:
                 candidate.append([i,j]) 
-    dfs(0,0)
+    dfs(0,-1)
     
     if ans == int(1e9) : print(-1)
     else : print(ans)
